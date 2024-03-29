@@ -1,0 +1,100 @@
+body {
+    background-image: url("images/pizza.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 50px 20px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #fff;
+    background-color: #f26722;
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f26722;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e6531d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#totalPrice {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f26722;
+}
+
+.container.confirmation {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.container.confirmation button {
+    background-color: #4cae4c;
+    margin-right: 10px;
+}
+
+.container.confirmation button:hover {
+    background-color: #45a545;
+}
+
+
+
+img {
+    max-width: 30px; 
+    max-height: 30px; 
+}
